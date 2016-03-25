@@ -1,0 +1,16 @@
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\labaratoria.exe.config
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.csprojResolveAssemblyReference.cache
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.Form2.resources
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.Properties.Resources.resources
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.csproj.GenerateResource.Cache
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\labaratoria.exe
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\labaratoria.pdb
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\EntityFramework.dll
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\EntityFramework.xml
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.exe
+c:\users\maks\documents\visual studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.pdb
+C:\Users\Maks\Documents\Visual Studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.button.resources
+C:\Users\Maks\Documents\Visual Studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.lABARATORY.resources
+C:\Users\Maks\Documents\Visual Studio 2015\Projects\labaratoria\labaratoria\obj\Debug\labaratoria.ENGINER.resources

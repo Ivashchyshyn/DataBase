@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище HospitalModelContainer" CdmEntityContainer="HospitalEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="HospitalModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Analyses">
+      <EntityTypeMapping TypeName="HospitalModel.Analysis">
+        <MappingFragment StoreEntitySet="Analysis">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Type_of_analysis" ColumnName="Type of analysis" />
+          <ScalarProperty Name="State_of_analysis" ColumnName="State of analysis" />
+          <ScalarProperty Name="Date_created" ColumnName="Date created" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Diagnosis">
+      <EntityTypeMapping TypeName="HospitalModel.Diagnosi">
+        <MappingFragment StoreEntitySet="Diagnosis">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Analysis" ColumnName="Analysis" />
+          <ScalarProperty Name="AnalysisID" ColumnName="AnalysisID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOCTORS_1">
+      <EntityTypeMapping TypeName="HospitalModel.DOCTORS_1">
+        <MappingFragment StoreEntitySet="DOCTORS_1">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="HospitalID" ColumnName="HospitalID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Engineer_1">
+      <EntityTypeMapping TypeName="HospitalModel.Engineer_1">
+        <MappingFragment StoreEntitySet="Engineer_1">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LaboratoryID" ColumnName="LaboratoryID" />
+          <ScalarProperty Name="HospitalID" ColumnName="HospitalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hospitals">
+      <EntityTypeMapping TypeName="HospitalModel.Hospital">
+        <MappingFragment StoreEntitySet="Hospital">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="C__of_workers" ColumnName="№ of workers" />
+          <ScalarProperty Name="Doctors_ID" ColumnName="Doctors_ID" />
+          <ScalarProperty Name="Enginners_ID" ColumnName="Enginners_ID" />
+          <ScalarProperty Name="Admins_ID" ColumnName="Admins_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Laboratories">
+      <EntityTypeMapping TypeName="HospitalModel.Laboratory">
+        <MappingFragment StoreEntitySet="Laboratory">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="C__room" ColumnName="№ room" />
+          <ScalarProperty Name="Type_of_research" ColumnName="Type of research" />
+          <ScalarProperty Name="Who_works" ColumnName="Who works" />
+          <ScalarProperty Name="HospitalID" ColumnName="HospitalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="HospitalModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DocrotsID" ColumnName="DocrotsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Type_of_analyses">
+      <EntityTypeMapping TypeName="HospitalModel.Type_of_analysis">
+        <MappingFragment StoreEntitySet="Type of analysis">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name_analysis" ColumnName="Name analysis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
